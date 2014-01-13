@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# name: bsnavbar
+# key: bsnavbar
+# --
+<!-- navbar-default navbar-inverse | navbar-static-top navbar-fixed-top navbar-fixed-bottom -->
+<nav class="navbar ${1:navbar-default} ${2:navbar-static-top}" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsible-navigation">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html">${3:brand here}</a>
+</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div id="collapsible-navigation" class="collapse navbar-collapse">
+<ul class="nav navbar-nav ${4:navbar-right}">
+<li ${5:class="active"}><a href="$6">$7</a></li>
+$0
+</ul>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container -->
+</nav>

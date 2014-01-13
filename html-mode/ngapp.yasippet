@@ -1,0 +1,29 @@
+# -*- mode: snippet -*-
+# name: ngapp
+# key: ngapp
+# --
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>$1</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css" /> -->
+    
+    <!-- local stylesheets -->
+    <link rel="stylesheet" href="app.css" />
+
+    <!-- Angularjs -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.min.js"></script>
+  </head>
+  <body>
+ 
+    $0
+    
+    <!-- local scripts -->
+    <script src="app.js"></script>
+  </body>
+</html>
